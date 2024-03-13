@@ -60,6 +60,10 @@ button{
   align-items: center;
 }
 
+.cyan{
+  background-color: cyan;
+}
+
 footer{
   padding: 20px 20px;
 }

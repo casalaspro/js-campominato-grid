@@ -25,3 +25,14 @@ Questa volta però sono combinati insieme per formare un problema più articolat
 // creare prima la parte html
 
 // <div class="cell">1</div>
+
+// attribuire eventListener al bottone play che:
+  // crei un ciclo da 1 a 100 che:
+    // crei un div
+    // gli aggiunga la classe .cell
+    // crei de testo
+    // appenda il teso al div
+    // appenda il div al contenitore
+    // aggiunga un eventListener al div che:
+      // aggiunga o tolga la classe .cyan
+      // scriva in console il numero della cella cliccata
