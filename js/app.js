@@ -23,3 +23,5 @@ Questa volta però sono combinati insieme per formare un problema più articolat
 */
 
 // creare prima la parte html
+
+// <div class="cell">1</div>
