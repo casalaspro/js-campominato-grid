@@ -37,15 +37,22 @@ buttonElement.addEventListener("click", function(){
   // console.log("Play");
   for(let i = 1; i<=100; i++){
     // console.log(i);
+    let number = i;
     const divElement = document.createElement("div");
     divElement.classList.add("cell");
-    const textElement = document.createTextNode(i);
+    const textElement = document.createTextNode(number);
     divElement.appendChild(textElement);
+    divElement.addEventListener("click", function(){
+      this.classList.toggle('cyan');
+      console.log(number);
+    });
     containerElement.appendChild(divElement);
     console.log(divElement);
 
+
   }
 })
+
 
 
   // crei un ciclo da 1 a 100 che:
