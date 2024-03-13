@@ -25,8 +25,29 @@ Questa volta però sono combinati insieme per formare un problema più articolat
 // creare prima la parte html
 
 // <div class="cell">1</div>
+// creo nodo bottone
+const buttonElement = document.querySelector("button");
+// console.log(buttonElement);
+// creo nodo contenitore
+const containerElement = document.querySelector(".grid");
+// console.log(containerElement);
 
 // attribuire eventListener al bottone play che:
+buttonElement.addEventListener("click", function(){
+  // console.log("Play");
+  for(let i = 1; i<=100; i++){
+    // console.log(i);
+    const divElement = document.createElement("div");
+    divElement.classList.add("cell");
+    const textElement = document.createTextNode(i);
+    divElement.appendChild(textElement);
+    containerElement.appendChild(divElement);
+    console.log(divElement);
+
+  }
+})
+
+
   // crei un ciclo da 1 a 100 che:
     // crei un div
     // gli aggiunga la classe .cell
