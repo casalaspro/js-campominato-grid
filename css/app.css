@@ -38,6 +38,10 @@ h1 {
   font-size: xxx-large;
 }
 
+select#difficulty {
+  padding: 5px 10px;
+}
+
 button{
   padding: 5px 20px;
 }
@@ -52,12 +56,22 @@ button{
 }
 
 .cell{
-  width: calc(100% / 10);
   aspect-ratio: 1/1;
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.difficulty-1{
+  width: calc(100% / 10);
+}
+
+.difficulty-2{
+  width: calc(100% / 9);
+}
+.difficulty-3{
+  width: calc(100% / 7);
 }
 
 .cyan{
